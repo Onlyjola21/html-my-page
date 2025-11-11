@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./asset/image/strawberries.jpg) no-repeat center center/cover;
+
+}
+
+.container {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(1px);
+    width: 420px;
+    color: whitesmoke;
+    padding: 30px 40px;
+    border-radius: 40px;
+}
+
+.container h1 {
+    color: seagreen;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    border: none;
+}
+
+.input-box input::placeholder {
+    color: dyurgba(0, 0, 0, 0.604);
+}
+
+.input-box i {
+    position: absolute;
+    transform: translate(-20px);
+    right: 10px;
+    top: 20px;
+    color: black;
+}
+
+.container .forgot-password {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.forgot-password label input {
+    cursor: pointer;
+    accent-color: beige;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.container .btn {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(240, 237, 237, 0.935);
+}
+
+.container .register-link  {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.register-link p a {
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+
+
